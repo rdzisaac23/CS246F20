@@ -7,3 +7,6 @@ Change the text in the file, then at the bottom of the screen enter a commit mes
 If you click on the commit history icon again, you should now see your commit from part one, along with the commit you just made.
 
 We're pretending that this new commit came from another developer, who made changes in their local repository, then pushed those changes to the central repository on GitHub.
+
+When multiple developers try to change the same files at the same time, this can result in what is called a merge conflict. By default, git is pretty good at merging changes during pulls and pushes. Sometimes however, it can't figure out the best choice, and so it leaves it up to you.
+
