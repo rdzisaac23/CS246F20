@@ -1,0 +1,3 @@
+Open the command line and navigate to a directory where you'd like to work. Use the git clone command to create a local copy of the repository you created on GitHub during the preparation assignment.
+
+You can find the URL used to clone your repository on github. In the W04-Prepare reading, you were asked to complete a short GitHub tutorial which resulted in your first GitHub repository. Using the URL from the repository that you created, the command to clone your responsitory would be:
