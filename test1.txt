@@ -10,3 +10,11 @@ We're pretending that this new commit came from another developer, who made chan
 
 When multiple developers try to change the same files at the same time, this can result in what is called a merge conflict. By default, git is pretty good at merging changes during pulls and pushes. Sometimes however, it can't figure out the best choice, and so it leaves it up to you.
 
+Just like we did in Part II, open up GitHub and modify the text in the sample.txt file, making sure you commit the changes.
+
+Verify that the new changes show up in the commit history on GitHub, but don't pull those changes to your local repository yet.
+
+Now, open sample.txt on your computer, and modify the same line of text that you modified in step 1, but change it to something different.
+
+Add sample.txt to the commit by using git add, then commit the changes using git commit:
+
