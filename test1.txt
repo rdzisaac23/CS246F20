@@ -7,3 +7,11 @@ Change the text in the file, then at the bottom of the screen enter a commit mes
 If you click on the commit history icon again, you should now see your commit from part one, along with the commit you just made.
 
 We're pretending that this new commit came from another developer, who made changes in their local repository, then pushed those changes to the central repository on GitHub.
+
+Just like we did in Part II, open up GitHub and modify the text in the sample.txt file, making sure you commit the changes.
+
+Verify that the new changes show up in the commit history on GitHub, but don't pull those changes to your local repository yet.
+
+Now, open sample.txt on your computer, and modify the same line of text that you modified in step 1, but change it to something different.
+
+Add sample.txt to the commit by using git add, then commit the changes using git commit:
